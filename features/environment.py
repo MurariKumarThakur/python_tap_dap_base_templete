@@ -1,5 +1,6 @@
 import allure
 from allure_commons.types import AttachmentType
+
 from selenium import webdriver
 
 from utils.ConfigReader import ConfigReader

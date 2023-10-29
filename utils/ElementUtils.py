@@ -153,7 +153,7 @@ class ElementUtils:
             if self.wait_for_element(web_element):
                 return web_element.is_checked()
             else:
-                logging.error("click_element() trigger >>> SEEMS element is not available in dom ", element)
+                logging.error("click_element() trigger >>> SEEMS element is not available in dom ", web_element)
 
         except Exception as e:
             self.logger.error(f"Error checking element display: {e}")
